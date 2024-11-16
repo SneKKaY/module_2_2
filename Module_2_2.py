@@ -7,7 +7,7 @@
 first = int(input('Write number: '))
 second = int(input('Yet: '))
 third = int(input('Give me more number!: '))
-if first == second and third:
+if first == (second and third):
     print(3)
 elif first == second or third:
     print(2)
