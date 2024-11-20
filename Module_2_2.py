@@ -1,15 +1,9 @@
-# name = input("What's your name? ")
-# if name == "Dima" :
-#     print("Hey, smart-ass!")
-# else:
-#     print('Hello, ', name)
-
 first = int(input('Write number: '))
 second = int(input('Yet: '))
 third = int(input('Give me more number!: '))
-if first == (second and third):
+if first == second == third:
     print(3)
-elif first == second or third:
+elif first == second or first == second or third == third:
     print(2)
 else:
     print(0)
